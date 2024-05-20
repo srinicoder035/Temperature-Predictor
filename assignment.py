@@ -8,7 +8,6 @@ features = pd.read_csv('temps.csv')
 print('The shape of the dataset is:', features.shape)
 
 #statistics on the dataset
-#print(features.describe())
 
 # One-hot encode the data 
 features = pd.get_dummies(features)
